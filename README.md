@@ -12,16 +12,15 @@ The `Card` class represents a standard playing card. It has methods to get the v
 - `valueToString()`: Returns the value of the card as a string.
 - `greaterThan(Object otherCard)`: Compares this card to another card and returns `true` if this card is greater.
 
-## Dealer
+## Hand
 
-The `Dealer` class manages the dealer's hand in the game.
+The `Hand` class represents a player's hand in the game.
 
-- `addCard()`: Adds a card to the dealer's hand.
-- `getScore()`: Returns the score of the dealer's hand.
-- `getHand()`: Returns the dealer's hand.
-- `hasBlackJack()`: Checks if the dealer has Blackjack.
-- `showTopCard()`: Returns a string representation of the dealer's top card.
-- `toString()`: Returns a string representation of the dealer's hand.
+- `addCardToHand()`: Adds a card to the hand.
+- `sortHand()`: Sorts the hand.
+- `getHandScore()`: Returns the score of the hand.
+- `getTopCard()`: Returns the top card of the hand.
+- `toString()`: Returns a string representation of the hand.
 
 ## Deck
 
@@ -33,27 +32,6 @@ The `Deck` class represents a standard deck of playing cards.
 - `getCard(int n)`: Returns the card at index `n` in the deck.
 - `toString()`: Returns a string representation of the deck.
 
-## Driver
-
-The `Driver` class contains the main method to start the game.
-
-## Game
-
-The `Game` class manages the overall flow of the game.
-
-- `playGame()`: Starts and manages logic in the game of Blackjack.
-> Note: Some rules such as splitting and doubling down are not implemented in my version of Blackjack. Logic for advanced rules will be added soon.
-
-## Hand
-
-The `Hand` class represents a player's hand in the game.
-
-- `addCardToHand()`: Adds a card to the hand.
-- `sortHand()`: Sorts the hand.
-- `getHandScore()`: Returns the score of the hand.
-- `getTopCard()`: Returns the top card of the hand.
-- `toString()`: Returns a string representation of the hand.
-
 ## Player
 
 The `Player` class represents a player in the game.
@@ -62,10 +40,32 @@ The `Player` class represents a player in the game.
 - `removeChips(int n)`: Removes `n` chips from the player's balance.
 - `addChips(int n)`: Adds `n` chips to the player's balance.
 - `getChips()`: Returns the player's chip balance.
-- `hasBlackJack()`: Checks if the player has Blackjack.
+- `hasBlackJack()`: Boolean for if the player has Blackjack.
 - `getScore()`: Returns the score of the player's hand.
 - `getName()`: Returns the player's name.
 - `toString()`: Returns a string representation of the player.
+
+## Dealer
+
+The `Dealer` class manages the dealer's hand in the game.
+
+- `addCard()`: Adds a card to the dealer's hand.
+- `getScore()`: Returns the score of the dealer's hand.
+- `getHand()`: Returns the dealer's hand.
+- `hasBlackJack()`: Boolean for if the dealer has Blackjack.
+- `showTopCard()`: Returns a string representation of the dealer's top card.
+- `toString()`: Returns a string representation of the dealer's hand.
+
+## Game
+
+The `Game` class manages the overall flow of the game.
+
+- `playGame()`: Starts and manages logic in the game of Blackjack.
+> Note: Some rules such as splitting and doubling down are not implemented in my version of Blackjack. Logic for advanced rules will be added soon.
+
+## Driver
+
+The `Driver` class contains the main method to start the game.
 
 ## How to Play
 
@@ -77,4 +77,4 @@ The `Player` class represents a player in the game.
 
 ## Contact
 
-For any inquiries or issues, please contact [Nolan Cyr](mailto:nolangcyr@gmail.com) Have fun playing!
+For any inquiries or issues, please contact [Nolan Cyr](mailto:nolangcyr@gmail.com). Have fun playing!
