@@ -75,27 +75,27 @@ The `Driver` class contains the main method to start the game.
 4. Follow the prompts to play the game.
 5. The game will continue until the player runs out of chips.
 
-## Future Implementations
+## Future Implementations:
 
-- **Error Handling**:
-   Add robust error handling to handle unexpected inputs from users.
+1. **Error Handling**:
+   - Add robust error handling to handle unexpected inputs from users.
 
-- **Multiplayer Support**:
-   Extend the game to support multiple players, allowing them to take turns.
+2. **Multiplayer Support**:
+   - Extend the game to support multiple players, allowing them to take turns.
 
-- **Advanced Rules**:
-   Some examples:
-      - Insurance bets
-      - Surrendering
-      - Doubling down
-      - Splitting
-      - Five Card Charlie
+3. **Advanced Rules**:
+   - Implement advanced rules such as:
+     - Insurance bets
+     - Surrendering
+     - Doubling down
+     - Splitting
+     - Five Card Charlie
 
-- **Stat Tracking**:
-   Keep track of statistics such as win/loss ratio, total chips won/lost, etc.
+4. **Stat Tracking**:
+   - Keep track of statistics such as win/loss ratio, total chips won/lost, etc.
 
-- **Save/Load Game**:
-   Implement functionality to save a game in progress and resume it later.
+5. **Save/Load Game**:
+   - Implement functionality to save a game in progress and resume it later.
 
 ## Contact
 
