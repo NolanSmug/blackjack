@@ -75,6 +75,18 @@ The `Driver` class contains the main method to start the game.
 4. Follow the prompts to play the game.
 5. The game will continue until the player runs out of chips.
 
+## Future Implementations
+
+- 2+ player support
+- new `toString()` for `Card`
+- advanced rules including:
+    1. insurance bets
+    2. surrendering
+    3. doubling down
+    4. splitting
+    5. five card charlie (maybe)
+
+
 ## Contact
 
 For any inquiries or issues, please contact [Nolan Cyr](mailto:nolangcyr@gmail.com). Have fun playing!
