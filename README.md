@@ -76,4 +76,4 @@ The `Player` class represents a player in the game.
 
 ## Contact
 
-For any inquiries or issues, please contact [Nolan Cyr](mailto:nolangcyr@gmail.com) Have fun playing Blackjack!
+For any inquiries or issues, please contact [Nolan Cyr](mailto:nolangcyr@gmail.com) Have fun playing!
