@@ -77,15 +77,25 @@ The `Driver` class contains the main method to start the game.
 
 ## Future Implementations
 
-- 2+ player support
-- new `toString()` for `Card`
-- advanced rules including:
-    1. insurance bets
-    2. surrendering
-    3. doubling down
-    4. splitting
-    5. five card charlie (maybe)
+- **Error Handling**:
+   Add robust error handling to handle unexpected inputs from users.
 
+- **Multiplayer Support**:
+   Extend the game to support multiple players, allowing them to take turns.
+
+- **Advanced Rules**:
+   Some examples:
+      - Insurance bets
+      - Surrendering
+      - Doubling down
+      - Splitting
+      - Five Card Charlie
+
+- **Stat Tracking**:
+   Keep track of statistics such as win/loss ratio, total chips won/lost, etc.
+
+- **Save/Load Game**:
+   Implement functionality to save a game in progress and resume it later.
 
 ## Contact
 
