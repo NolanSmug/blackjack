@@ -61,7 +61,7 @@ The `Dealer` class manages the dealer's hand in the game.
 The `Game` class manages the overall flow of the game.
 
 - `playGame()`: Starts and manages logic in the game of Blackjack.
-> [Note: Some rules such as splitting and doubling down are not implemented in my version of Blackjack. Logic for advanced rules will be added soon.](#future-implementations)
+> [Note: Some rules such as splitting and doubling down are not implemented in my version of Blackjack. Logic for advanced rules will be added soon. (See Future Implementations](#future-implementations)
 
 ## Driver
 
