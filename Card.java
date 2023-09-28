@@ -4,6 +4,12 @@ public class Card {
     public final static int KING = 13;
     public final static int ACE = 1;
 
+    // suit private variables for possible future projects
+    public final static int CLUBS = 0;
+    public final static int DIAMONDS = 1;
+    public final static int HEARTS = 2;
+    public final static int SPADES = 3;
+
     private int value;
     private int suit;
 
