@@ -33,7 +33,6 @@ public class Player {
         return chips;
     }
 
-
     public boolean hasBlackJack() {
         return playerHand.getHandScore() == 21;
     }
@@ -46,7 +45,6 @@ public class Player {
     public String getName() {
         return playerName;
     }
-
 
     public String toString() {
         return String.format("%s's Cards:\n%s\nScore: %d", playerName, playerHand, getScore());
