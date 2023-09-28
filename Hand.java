@@ -49,11 +49,12 @@ public class Hand {
 
     @Override
     public String toString() {
-        String s = "";
-
+        StringBuilder s = new StringBuilder();
+    
         for (Card card : hand) {
-            s += String.format("%s  ", card);
+            s.append(String.format("%s  ", card));
         }
-        return s;
+        
+        return s.toString();
     }
 }
