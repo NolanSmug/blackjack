@@ -42,6 +42,7 @@ The `Driver` class contains the main method to start the game.
 The `Game` class manages the overall flow of the game.
 
 - `playGame()`: Starts and manages logic in the game of Blackjack.
+> Note: Some rules such as splitting and doubling down are not implemented in my version of Blackjack. Logic for advanced rules will be added soon.
 
 ## Hand
 
